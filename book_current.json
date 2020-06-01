@@ -1,0 +1,19 @@
+{
+  "title": "移动端自动化测试概览",
+  "description": "总结安卓和iOS等移动端自动化测试开发心得",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "mobile_automation_overview"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/mobile_automation_overview/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/mobile_automation_overview/pdf/mobile_automation_overview.pdf"
+    }
+  }
+}
