@@ -5,7 +5,7 @@
 ## Appium依赖于底层框架
 
 * iOS
-    * Appium在`iOS >9.3` 后全面采用`WebDriverAgent`的方案
+  * `Appium`在`iOS`>`9.3`后全面采用（底层基于`XCUITest`的）`WebDriverAgent`的方案
 * `Android >= 4.3`: Google's [UiAutomator / UiAutomator2](https://developer.android.com/training/testing/ui-automator)
 * `Windows`: Microsoft's [WinAppDriver](http://github.com/microsoft/winappdriver)
 

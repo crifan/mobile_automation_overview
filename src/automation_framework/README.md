@@ -3,17 +3,17 @@
 移动端自动化测试常见框架：
 
 * 多平台支持
-    * Appium
-      * 主页
-        * GitHub
-          * [appium/appium: Automation for iOS, Android, and Windows Apps.](https://github.com/appium/appium)
-        * 官网
-          * [Appium: Mobile App Automation Made Awesome.](http://appium.io)
-      * 支持平台
-        * iOS
-        * Android
-        * Windows
-        * Mac
+  * Appium
+    * 主页
+      * GitHub
+        * [appium/appium: Automation for iOS, Android, and Windows Apps.](https://github.com/appium/appium)
+      * 官网
+        * [Appium: Mobile App Automation Made Awesome.](http://appium.io)
+    * 支持平台
+      * iOS
+      * Android
+      * Windows
+      * Mac
   * Airtest
     * 主页
       * GitHub
@@ -29,21 +29,21 @@
       * [WeChat](http://airtest.netease.com/blog/tutorial/WechatSmallProgram/)
 * 单个平台
   * `Android`
-      * `uiautomator2`=`u2`
+    * `uiautomator2`=`u2`
   * `iOS`
-      * `facebook-wda`
-      * `idb`=`iOS Development Bridge`
-        * 主页
-          * GitHub
-            * [facebook/idb: idb is a flexible command line interface for automating iOS simulators and devices](https://github.com/facebook/idb/)
-          * 官网
-            * [idb · iOS Development Bridge](https://www.fbidb.io)
-        * Facebook新出的
-        * 架构
-          * ![idb_architecture_flow](../assets/img/idb_architecture_flow.png)
-        * 缺点：
-          * 需要改动被测app的代码才能自动化测试？
-            * 想要测试（iOS模拟器或真机）设备，要在被测设备中安装xctest测试用例才可以
+    * `facebook-wda`
+    * `idb`=`iOS Development Bridge`
+      * 主页
+        * GitHub
+          * [facebook/idb: idb is a flexible command line interface for automating iOS simulators and devices](https://github.com/facebook/idb/)
+        * 官网
+          * [idb · iOS Development Bridge](https://www.fbidb.io)
+      * Facebook新出的
+      * 架构
+        * ![idb_architecture_flow](../assets/img/idb_architecture_flow.png)
+      * 缺点：
+        * 需要改动被测app的代码才能自动化测试？
+          * 想要测试（iOS模拟器或真机）设备，要在被测设备中安装xctest测试用例才可以
 
 > #### success:: u2和facebook-wda都是ATX拆分出来的
 > 
@@ -57,13 +57,12 @@
 
 ## iOS自动化测试框架发展历史
 
-* Apple自身
-  * `iOS <= 9.3`: Apple的（`instruments`下的）[UIAutomation](https://web.archive.org/web/20160904214108/https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/)
+* iOS底层测试框架
+  * iOS `8.0 ~ 9.3`：[UIAutomation](http://appium.io/docs/en/drivers/ios-uiautomation/index.html)
     * 缺点：只能调试单台设备
       * 原因：`instruments`限制单台Mac只能对应单台iOS设备
-  * `iOS >= 9.3`: Apple的 [XCUITest](https://developer.apple.com/reference/xctest)
-    * 目的：用以替代`UIAutomation`
-  * `iOS >= 10`：Apple废弃了`UIAutomation`
+  * iOS `9.3+`: [XCUITest](http://appium.io/docs/en/drivers/ios-xcuitest/index.html)
+    * 目的：用以替代旧的`UIAutomation`
 * 第三方
   * `WebDriverAgent`
     * 作者：`Facebook`

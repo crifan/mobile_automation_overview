@@ -12,3 +12,5 @@
 * [XCUITest Real Devices (iOS) - Appium](https://appium.io/docs/en/drivers/ios-xcuitest-real-devices/)
 * [Real devices ios - appium](https://appium.readthedocs.io/en/latest/cn/appium-setup/real-devices-ios/)
 * [appium-xcuitest-driver/real-device-config.md at master · appium/appium-xcuitest-driver](https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md)
+* [Go Back - Appium](http://appium.io/docs/en/commands/session/back/)
+* 
