@@ -3,17 +3,9 @@
 移动端自动化测试常见框架：
 
 * 多平台支持
-    * Appium
-      * 主页
-        * GitHub
-          * [appium/appium: Automation for iOS, Android, and Windows Apps.](https://github.com/appium/appium)
-        * 官网
-          * [Appium: Mobile App Automation Made Awesome.](http://appium.io)
-      * 支持平台
-        * iOS
-        * Android
-        * Windows
-        * Mac
+  * Appium
+    * 概述：一个非常流行的、支持多种终端类型（Windows、Mac、Linux、Android、iOS）的自动化测试框架
+    * 详见：后续章节 [Appium](../automation_framework/appium.md)
   * Airtest
     * 主页
       * GitHub
@@ -29,21 +21,21 @@
       * [WeChat](http://airtest.netease.com/blog/tutorial/WechatSmallProgram/)
 * 单个平台
   * `Android`
-      * `uiautomator2`=`u2`
+    * `uiautomator2`=`u2`
   * `iOS`
-      * `facebook-wda`
-      * `idb`=`iOS Development Bridge`
-        * 主页
-          * GitHub
-            * [facebook/idb: idb is a flexible command line interface for automating iOS simulators and devices](https://github.com/facebook/idb/)
-          * 官网
-            * [idb · iOS Development Bridge](https://www.fbidb.io)
-        * Facebook新出的
-        * 架构
-          * ![idb_architecture_flow](../assets/img/idb_architecture_flow.png)
-        * 缺点：
-          * 需要改动被测app的代码才能自动化测试？
-            * 想要测试（iOS模拟器或真机）设备，要在被测设备中安装xctest测试用例才可以
+    * `facebook-wda`
+    * `idb`=`iOS Development Bridge`
+      * 主页
+        * GitHub
+          * [facebook/idb: idb is a flexible command line interface for automating iOS simulators and devices](https://github.com/facebook/idb/)
+        * 官网
+          * [idb · iOS Development Bridge](https://www.fbidb.io)
+      * Facebook新出的
+      * 架构
+        * ![idb_architecture_flow](../assets/img/idb_architecture_flow.png)
+      * 缺点：
+        * 需要改动被测app的代码才能自动化测试？
+          * 想要测试（iOS模拟器或真机）设备，要在被测设备中安装xctest测试用例才可以
 
 > #### success:: u2和facebook-wda都是ATX拆分出来的
 > 
