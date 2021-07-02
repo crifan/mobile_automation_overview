@@ -49,13 +49,12 @@
 
 ## iOS自动化测试框架发展历史
 
-* Apple自身
-  * `iOS <= 9.3`: Apple的（`instruments`下的）[UIAutomation](https://web.archive.org/web/20160904214108/https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/)
+* iOS底层测试框架
+  * iOS `8.0 ~ 9.3`：[UIAutomation](http://appium.io/docs/en/drivers/ios-uiautomation/index.html)
     * 缺点：只能调试单台设备
       * 原因：`instruments`限制单台Mac只能对应单台iOS设备
-  * `iOS >= 9.3`: Apple的 [XCUITest](https://developer.apple.com/reference/xctest)
-    * 目的：用以替代`UIAutomation`
-  * `iOS >= 10`：Apple废弃了`UIAutomation`
+  * iOS `9.3+`: [XCUITest](http://appium.io/docs/en/drivers/ios-xcuitest/index.html)
+    * 目的：用以替代旧的`UIAutomation`
 * 第三方
   * `WebDriverAgent`
     * 作者：`Facebook`

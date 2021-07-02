@@ -5,7 +5,7 @@
 
 ## 简介
 
-总结安卓和iOS等移动端自动化测试开发心得
+总结安卓和iOS等移动端自动化测试开发心得，包括常见框架Appium、uiautomator2、facebook-wda、AirTest等。以及一些常见问题的总结。
 
 ## 源码+浏览+下载
 

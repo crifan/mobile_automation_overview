@@ -3,5 +3,5 @@
   "lastUpdate": "202010701",
   "gitRepoName": "mobile_automation_overview",
   "bookName": "移动端自动化测试概览",
-  "bookDescription": "总结安卓和iOS等移动端自动化测试开发心得"
+  "bookDescription": "总结安卓和iOS等移动端自动化测试开发心得，包括常见框架Appium、uiautomator2、facebook-wda、AirTest等。以及一些常见问题的总结。"
 }
